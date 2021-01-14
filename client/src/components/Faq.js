@@ -38,9 +38,7 @@ export default function Faq() {
   console.log("rendered");
   return (
     <div>
-      <h4 style={{ fontWeight: "bold", textAlign: "center" }}>
-        My Website help
-      </h4>
+      <h4 style={{ fontWeight: "bold", textAlign: "center" }}>Ask you Query</h4>
       <Accordion allowToggle allowMultiple={false}>
         {FAQ.map((f) => (
           <AccordionItem
